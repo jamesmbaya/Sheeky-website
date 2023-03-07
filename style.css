@@ -1,0 +1,272 @@
+body{
+    color: rgb(255, 255, 255);
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(19, 19, 41); 
+    align-items: center;    
+    max-width: 100%;
+} 
+@media screen and (min-width:450px) {
+     .head{
+        margin-top: 30px;
+    }
+    .beauty{
+        margin-left: 700px;
+        display: flex;
+        gap: 40px;
+        justify-content: right;
+        margin-top: 40px;
+    }
+}
+
+#EmojisDen{
+    margin-left: 120px;
+}
+
+.galaxy{
+    margin-top: 40px;
+    grid-template-columns: o.5px;
+    margin-left:200px;
+    height: 500px;
+    display: grid;
+    border-radius: 50%;
+    float: none;
+}
+
+#section1{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 0.5px;
+    gap: 20px;
+    padding-top: 1em;
+}
+
+.section2{
+    grid-template-columns: 1fr 1fr;
+}
+
+.section3{
+    grid-template-columns: 1fr 1fr;
+}
+.pic{
+    margin-left: 220px;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 85px;
+    display: flex;
+    border-radius: 20%;
+}
+
+.image{
+    max-width: 40ch;
+    margin-left: 220px;
+    height: 85px;
+    display: flex ;
+    border-radius: 20%;
+    grid-template-columns: 1fr 1fr;
+}
+
+#section2{
+    text-align: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 0.5%;
+    gap: 20px;
+    
+}
+.gallery{
+    margin-left: 200px;
+    height: 85px;
+    display: flex;
+    border-radius: 20%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile{
+    margin-left: 200px;
+    align-items: center;
+    height: 85px;
+    display: flex;
+    border-radius: 20%;
+}
+.sheeky{
+    margin-left: 60px;
+    flex-wrap: wrap;
+    float: left;
+    border-radius: 40%;
+}
+
+#section{
+    display: flex;
+    margin-left: 300px;
+    padding-right: 300px;
+}
+
+#programs{
+    margin-left: 120px;
+}
+
+.BookAppointmentbutton{
+    background-color: rgb(21, 21, 248);
+    border-radius: 10%;
+}
+
+
+.happy{
+    margin-left: 60px;
+    height: 85px;
+    display: flex;
+    border-radius: 60%;
+}
+
+.section7{
+    grid-gap: 20px;
+    align-content: center;
+    text-align: center;
+    border-top-style: hidden;
+    text-decoration: underline;
+}
+
+#section7{
+    margin-inline-end: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 30px;
+}
+
+.section7{
+    background-color: rgb(82, 147, 82);
+    margin-left: 60px;
+}
+
+.section8{
+    background-color: rgb(35, 35, 65);
+    margin-left: 120px;
+}
+.Barber{
+    margin-left: 60px;
+    align-content: center;
+    height: 85px;
+    display: flex;
+    border-radius: 60%;
+}
+
+#section8{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    background-color: rgb(35, 35, 65);
+}
+.Hairstylist{
+    margin-left: 60px;
+    height: 85px;
+    display: flex;
+    border-radius: 60%;
+}
+
+.section9{
+    align-items: center;
+    background-color: rgb(35, 35, 65);
+}
+.beauty{
+    align-items: left;
+    justify-content: left;
+}
+.intro-img{
+    max-width: 100%;
+    width: 50%;
+    padding: 2px 2px 2px 2px;
+}
+
+.img2{
+    border-radius: 30%;
+   max-height: 85px; 
+   padding-bottom: 0.5em;
+   size:  78 x 58px;
+   contain-intrinsic-size: 112 x 150px;
+}
+
+#section5{
+    margin-left: 200px;
+    justify-content: center;
+}
+
+.mygallery{
+    height: 100px;
+    display: flex;
+    border-radius: 60%;
+}
+
+.mylogo{
+    height: 30px;
+    display: flex;
+}
+
+.myprofile8{
+    height: 30px;
+    display: flex;
+}
+
+#sectionb{
+    background-color: rgb(35, 35, 65);
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.subscribebutton{
+    counter-increment: calc(100%);
+    background-color: rgb(7, 48, 249);
+    border-radius: 0%;
+    
+}
+
+#sectionc{
+    margin-left: 80px;
+    margin-top: 160px;
+}
+
+.myprofile9{
+    height: 30px;
+    display: flex;
+}
+
+.section9e{
+
+    display: flex;
+    margin-left: 20px;
+    margin-left: 60px;
+    margin-top: 5px;
+    grid-template-columns: 4fr ;
+    justify-content: left;
+
+}
+#sectiond{
+    margin-block: 40px;
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 120px;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.social-media{
+    grid-gap: 20px;
+    display: flex;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 500px;
+    
+}
